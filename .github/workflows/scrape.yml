@@ -1,0 +1,33 @@
+name: scrape-carteras-fci
+
+on:
+  schedule:
+    - cron: "0 10 2,17 * *"   # dias 2 y 17, 07:00 Argentina
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Prueba: cantidad de fondos (0 = corrida completa)"
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scrape CNV
+        run: |
+          L="${{ github.event.inputs.limit }}"
+          if [ -n "$L" ] && [ "$L" != "0" ]; then python scrape.py --limit "$L"; else python scrape.py; fi
+      - name: Commit data
+        run: |
+          git config user.name "fci-tenencias-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/tenencias_on.json data/carteras alias_pendientes.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "sin cambios"; else git commit -m "datos $(date -u +%F)" && git push; fi
