@@ -4,7 +4,7 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Banco Nacion Argentina Clase 1": {
-  "fondos": 60,
+  "fondos": 61,
   "motivo": "fuera del universo / sin match"
  },
  "ON P. Aconcagua Energia C19": {
@@ -12,7 +12,11 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON GEMSA y CTR C43": {
-  "fondos": 53,
+  "fondos": 54,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON BBVA Frances Cl 47": {
+  "fondos": 45,
   "motivo": "fuera del universo / sin match"
  },
  "ON Vaca Muerta C1": {
@@ -20,23 +24,19 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Vista Gas y Oil Arg C18": {
-  "fondos": 43,
+  "fondos": 44,
   "motivo": "fuera del universo / sin match"
  },
  "ON Santander Rio S 32": {
-  "fondos": 43,
+  "fondos": 44,
   "motivo": "sin clase o emisor"
  },
- "ON BBVA Frances Cl 47": {
+ "ON Transp Gas Sur Cl 3": {
   "fondos": 43,
   "motivo": "fuera del universo / sin match"
  },
  "ON Banco Prov Clase 6": {
   "fondos": 43,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Transp Gas Sur Cl 3": {
-  "fondos": 42,
   "motivo": "fuera del universo / sin match"
  },
  "ON Oldelval Clase 7": {
@@ -51,15 +51,27 @@
   "fondos": 38,
   "motivo": "sin clase o emisor"
  },
+ "ON Oldelval Clase 3": {
+  "fondos": 38,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Oldelval Clase 6": {
   "fondos": 38,
   "motivo": "fuera del universo / sin match"
  },
- "ON Oldelval Clase 3": {
-  "fondos": 37,
+ "ON Tarj Naranja C67 S1": {
+  "fondos": 36,
   "motivo": "fuera del universo / sin match"
  },
- "ON Tarj Naranja C67 S1": {
+ "ON BBVA Frances Cl 46": {
+  "fondos": 35,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Pan American C26": {
+  "fondos": 35,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Pan American C33": {
   "fondos": 35,
   "motivo": "fuera del universo / sin match"
  },
@@ -67,11 +79,7 @@
   "fondos": 34,
   "motivo": "fuera del universo / sin match"
  },
- "ON Pan American C26": {
-  "fondos": 34,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pan American C33": {
+ "ON CGC C 39": {
   "fondos": 34,
   "motivo": "fuera del universo / sin match"
  },
@@ -79,7 +87,19 @@
   "fondos": 34,
   "motivo": "fuera del universo / sin match"
  },
- "ON BBVA Frances Cl 46": {
+ "ON Pluspetrol 8.5% 2032 (REGS)": {
+  "fondos": 34,
+  "motivo": "sin clase o emisor"
+ },
+ "ON ICBC Clase 5 110327": {
+  "fondos": 33,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Genneia Clase 37": {
+  "fondos": 33,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Banco Nacion Argentina Clase 3": {
   "fondos": 33,
   "motivo": "fuera del universo / sin match"
  },
@@ -87,48 +107,32 @@
   "fondos": 33,
   "motivo": "fuera del universo / sin match"
  },
- "ON CGC C 39": {
-  "fondos": 33,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pluspetrol 8.5% 2032 (REGS)": {
-  "fondos": 33,
-  "motivo": "sin clase o emisor"
- },
- "ON ICBC Clase 5 110327": {
-  "fondos": 32,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Genneia Clase 37": {
-  "fondos": 32,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Banco Nacion Argentina Clase 3": {
+ "ON Pan American C40": {
   "fondos": 32,
   "motivo": "fuera del universo / sin match"
  },
  "ON YPF Clase XXVII": {
-  "fondos": 30,
+  "fondos": 31,
   "motivo": "fuera del universo / sin match"
  },
  "ON Aluar Serie 6": {
-  "fondos": 30,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pan American C40": {
-  "fondos": 30,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Banco Comafi C22": {
-  "fondos": 29,
-  "motivo": "fuera del universo / sin match"
- },
- "ON BBVA Frances Cl 38": {
-  "fondos": 29,
+  "fondos": 31,
   "motivo": "fuera del universo / sin match"
  },
  "ON Pampa Energia C13": {
-  "fondos": 29,
+  "fondos": 31,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Banco Comafi C22": {
+  "fondos": 30,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON BBVA Frances Cl 38": {
+  "fondos": 30,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON PCR Clase K": {
+  "fondos": 28,
   "motivo": "fuera del universo / sin match"
  },
  "ON Arcor C4": {
@@ -139,24 +143,20 @@
   "fondos": 28,
   "motivo": "fuera del universo / sin match"
  },
- "ON PCR Clase K": {
+ "ON BACS Clase 19": {
   "fondos": 27,
   "motivo": "fuera del universo / sin match"
  },
- "ON BACS Clase 19": {
-  "fondos": 27,
+ "ON Banco de Valores C3": {
+  "fondos": 26,
   "motivo": "fuera del universo / sin match"
  },
  "ON AES Argentina Gen 060828": {
   "fondos": 26,
   "motivo": "sin clase o emisor"
  },
- "ON Banco de Valores C3": {
-  "fondos": 25,
-  "motivo": "fuera del universo / sin match"
- },
  "ON TGS C4 Reg S": {
-  "fondos": 25,
+  "fondos": 26,
   "motivo": "fuera del universo / sin match"
  },
  "ON Tecpetrol C10": {
@@ -166,6 +166,14 @@
    "TT1AD",
    "TTCAD"
   ]
+ },
+ "ON Vista Gas y Oil Arg C17": {
+  "fondos": 24,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON ICBC Clase 4 281126": {
+  "fondos": 24,
+  "motivo": "fuera del universo / sin match"
  },
  "ON Bco Provincia Cl 4": {
   "fondos": 24,
@@ -179,7 +187,11 @@
   "fondos": 24,
   "motivo": "sin clase o emisor"
  },
- "ON Vista Gas y Oil Arg C17": {
+ "ON Aeropuertos 2000 Regs 2031": {
+  "fondos": 23,
+  "motivo": "sin clase o emisor"
+ },
+ "ON ICBC Clase 7 170627": {
   "fondos": 23,
   "motivo": "fuera del universo / sin match"
  },
@@ -187,19 +199,11 @@
   "fondos": 23,
   "motivo": "fuera del universo / sin match"
  },
- "ON ICBC Clase 4 281126": {
-  "fondos": 22,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Aeropuertos 2000 Regs 2031": {
-  "fondos": 22,
-  "motivo": "sin clase o emisor"
- },
  "ON Capex C7": {
   "fondos": 22,
   "motivo": "fuera del universo / sin match"
  },
- "ON ICBC Clase 7 170627": {
+ "ON Banco Nacion Argentina Clase 4": {
   "fondos": 22,
   "motivo": "fuera del universo / sin match"
  },
@@ -211,10 +215,6 @@
   "fondos": 22,
   "motivo": "fuera del universo / sin match"
  },
- "ON Banco Nacion Argentina Clase 4": {
-  "fondos": 21,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Toyota Clase 34": {
   "fondos": 21,
   "motivo": "fuera del universo / sin match"
@@ -223,19 +223,31 @@
   "fondos": 21,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Energias Renovables Las Lomas Clase 1": {
+  "fondos": 21,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Mercado Pago C6": {
   "fondos": 20,
   "motivo": "fuera del universo / sin match"
  },
- "ON Energias Renovables Las Lomas Clase 1": {
+ "ON PSA Serie 35": {
   "fondos": 20,
   "motivo": "fuera del universo / sin match"
  },
- "ON PSA Serie 35": {
+ "ON Banco Hipotecario C11": {
   "fondos": 19,
   "motivo": "fuera del universo / sin match"
  },
  "ON Credicuotas Consumo S20": {
+  "fondos": 19,
+  "motivo": "sin clase o emisor"
+ },
+ "ON San Miguel Serie 13 CA": {
+  "fondos": 19,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Club Atletico River Plate S1": {
   "fondos": 19,
   "motivo": "sin clase o emisor"
  },
@@ -247,7 +259,7 @@
   "fondos": 19,
   "motivo": "fuera del universo / sin match"
  },
- "ON Banco Hipotecario C11": {
+ "ON Payway C1": {
   "fondos": 18,
   "motivo": "fuera del universo / sin match"
  },
@@ -255,19 +267,15 @@
   "fondos": 18,
   "motivo": "fuera del universo / sin match"
  },
- "ON San Miguel Serie 13 CA": {
-  "fondos": 18,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Club Atletico River Plate S1": {
-  "fondos": 18,
-  "motivo": "sin clase o emisor"
- },
  "ON Impsa Clase 7 2036": {
   "fondos": 17,
   "motivo": "fuera del universo / sin match"
  },
- "ON Payway C1": {
+ "ON BBVA Frances Cl 41": {
+  "fondos": 17,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Mercado Pago C8": {
   "fondos": 17,
   "motivo": "fuera del universo / sin match"
  },
@@ -283,9 +291,21 @@
   "fondos": 17,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Lancioni S1": {
+  "fondos": 17,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Aluar Serie 7": {
+  "fondos": 17,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Supervielle Clase U": {
   "fondos": 17,
   "motivo": "fuera del universo / sin match"
+ },
+ "ON Banco Mariva S3 060727": {
+  "fondos": 17,
+  "motivo": "sin clase o emisor"
  },
  "ON YPF 2029": {
   "fondos": 16,
@@ -295,15 +315,11 @@
   "fondos": 16,
   "motivo": "fuera del universo / sin match"
  },
- "ON BBVA Frances Cl 41": {
-  "fondos": 16,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Mercado Pago C8": {
-  "fondos": 16,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Mercado Pago C7": {
+  "fondos": 16,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Volkswagen Financial Services C12": {
   "fondos": 16,
   "motivo": "fuera del universo / sin match"
  },
@@ -311,17 +327,21 @@
   "fondos": 16,
   "motivo": "sin clase o emisor"
  },
+ "ON Agronorte Serie 1": {
+  "fondos": 16,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Liliana S3": {
+  "fondos": 16,
+  "motivo": "sin clase o emisor"
+ },
  "ON Banco Nacion Argentina Clase 2": {
   "fondos": 16,
   "motivo": "fuera del universo / sin match"
  },
- "ON Lancioni S1": {
+ "ON Latamly S1": {
   "fondos": 16,
   "motivo": "sin clase o emisor"
- },
- "ON Aluar Serie 7": {
-  "fondos": 16,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Pan American C42": {
   "fondos": 16,
@@ -331,27 +351,19 @@
    "PN42D"
   ]
  },
- "ON Banco Mariva S3 060727": {
-  "fondos": 16,
-  "motivo": "sin clase o emisor"
- },
- "ON Volkswagen Financial Services C12": {
+ "ON Mercado Pago C5": {
   "fondos": 15,
   "motivo": "fuera del universo / sin match"
+ },
+ "ON Credicuotas Consumo S17": {
+  "fondos": 15,
+  "motivo": "sin clase o emisor"
  },
  "ON Arcor C8": {
   "fondos": 15,
   "motivo": "fuera del universo / sin match"
  },
  "ON Rombo Cia Fciera S65": {
-  "fondos": 15,
-  "motivo": "sin clase o emisor"
- },
- "ON Agronorte Serie 1": {
-  "fondos": 15,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Liliana S3": {
   "fondos": 15,
   "motivo": "sin clase o emisor"
  },
@@ -367,7 +379,7 @@
   "fondos": 15,
   "motivo": "sin clase o emisor"
  },
- "ON Latamly S1": {
+ "ON Pyme RDA Renting S2": {
   "fondos": 15,
   "motivo": "sin clase o emisor"
  },
@@ -387,14 +399,6 @@
   "fondos": 14,
   "motivo": "fuera del universo / sin match"
  },
- "ON Mercado Pago C5": {
-  "fondos": 14,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Credicuotas Consumo S17": {
-  "fondos": 14,
-  "motivo": "sin clase o emisor"
- },
  "ON Credito Directo C31": {
   "fondos": 14,
   "motivo": "fuera del universo / sin match"
@@ -406,6 +410,22 @@
  "ON Rowing S1": {
   "fondos": 14,
   "motivo": "sin clase o emisor"
+ },
+ "ON BI Georgalos S1 C1": {
+  "fondos": 14,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Pyme Gar Bajo Imp Apache S1 C1": {
+  "fondos": 14,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Ratto Hnos S1 C1 110228": {
+  "fondos": 14,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Grz Georgalos S2 C2": {
+  "fondos": 14,
+  "motivo": "fuera del universo / sin match"
  },
  "ON TGLT Clase 16": {
   "fondos": 14,
@@ -419,7 +439,7 @@
   "fondos": 14,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme RDA Renting S2": {
+ "ON BLM Desarrollos S1": {
   "fondos": 14,
   "motivo": "sin clase o emisor"
  },
@@ -443,6 +463,10 @@
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Rombo Cia Fciera S69": {
+  "fondos": 13,
+  "motivo": "sin clase o emisor"
+ },
  "ON NewSan Clase 23": {
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
@@ -451,23 +475,23 @@
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
  },
- "ON BI Georgalos S1 C1": {
+ "ON Pyme Gar Venturino S2": {
   "fondos": 13,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "sin clase o emisor"
  },
- "ON Pyme Gar Bajo Imp Apache S1 C1": {
+ "ON Pyme DeRentas S2": {
   "fondos": 13,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "sin clase o emisor"
+ },
+ "ON Pyme Datastar S1": {
+  "fondos": 13,
+  "motivo": "sin clase o emisor"
  },
  "ON Diransa C2": {
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
  },
- "ON Ratto Hnos S1 C1 110228": {
-  "fondos": 13,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Grz Georgalos S2 C2": {
+ "ON Pyme Spazios Inmuebles S1 C1": {
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
  },
@@ -475,7 +499,15 @@
   "fondos": 13,
   "motivo": "sin clase o emisor"
  },
- "ON BLM Desarrollos S1": {
+ "ON Pyme Gar Gruas San Blas S1": {
+  "fondos": 13,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Automotores Pampeanos Clase 1": {
+  "fondos": 13,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Pyme Riboldi S1": {
   "fondos": 13,
   "motivo": "sin clase o emisor"
  },
@@ -487,6 +519,14 @@
   "fondos": 13,
   "motivo": "sin clase o emisor"
  },
+ "ON Bco Patagonia Cl 5": {
+  "fondos": 13,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Banco de Valores C4": {
+  "fondos": 13,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON CGC C 41": {
   "fondos": 13,
   "motivo": "fuera del universo / sin match"
@@ -495,11 +535,11 @@
   "fondos": 13,
   "motivo": "sin clase o emisor"
  },
- "ON Rombo Cia Fciera S69": {
-  "fondos": 12,
-  "motivo": "sin clase o emisor"
- },
  "ON Banco Hipotecario C13": {
+  "fondos": 12,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON FCA Comp. Finac CL 22 S3": {
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
  },
@@ -508,22 +548,6 @@
   "motivo": "sin clase o emisor"
  },
  "ON NBD Chaco Clase 1": {
-  "fondos": 12,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pyme Gar Venturino S2": {
-  "fondos": 12,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme DeRentas S2": {
-  "fondos": 12,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme Datastar S1": {
-  "fondos": 12,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme Spazios Inmuebles S1 C1": {
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
  },
@@ -543,6 +567,10 @@
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Genneia Clase 42": {
+  "fondos": 12,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Angel Estrada C18": {
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
@@ -555,11 +583,15 @@
   "fondos": 12,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme Gar Gruas San Blas S1": {
+ "ON Laboratorio Asserca S1": {
   "fondos": 12,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme Riboldi S1": {
+ "ON Pyme Navarro S1 Clase 2": {
+  "fondos": 12,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Pyme Gar Venturino S1": {
   "fondos": 12,
   "motivo": "sin clase o emisor"
  },
@@ -567,15 +599,7 @@
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
  },
- "ON Bco Patagonia Cl 5": {
-  "fondos": 12,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Arcor C5": {
-  "fondos": 12,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Banco de Valores C4": {
   "fondos": 12,
   "motivo": "fuera del universo / sin match"
  },
@@ -586,10 +610,6 @@
  "ON Refi Pampa S3 B": {
   "fondos": 11,
   "motivo": "sin clase o emisor"
- },
- "ON FCA Comp. Finac CL 22 S3": {
-  "fondos": 11,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Toyota Clase 39": {
   "fondos": 11,
@@ -604,6 +624,10 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON PyMe Gar Cheek S1": {
+  "fondos": 11,
+  "motivo": "sin clase o emisor"
+ },
+ "ON PyMe Gar Agropecuaria Sur S1": {
   "fondos": 11,
   "motivo": "sin clase o emisor"
  },
@@ -627,9 +651,9 @@
   "fondos": 11,
   "motivo": "sin clase o emisor"
  },
- "ON Genneia Clase 42": {
+ "ON Maximia S1": {
   "fondos": 11,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "sin clase o emisor"
  },
  "ON Banco de Cordoba C5": {
   "fondos": 11,
@@ -643,15 +667,7 @@
   "fondos": 11,
   "motivo": "sin clase o emisor"
  },
- "ON Laboratorio Asserca S1": {
-  "fondos": 11,
-  "motivo": "sin clase o emisor"
- },
  "ON Sumatoria C6": {
-  "fondos": 11,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pyme Navarro S1 Clase 2": {
   "fondos": 11,
   "motivo": "fuera del universo / sin match"
  },
@@ -659,11 +675,7 @@
   "fondos": 11,
   "motivo": "fuera del universo / sin match"
  },
- "ON Automotores Pampeanos Clase 1": {
-  "fondos": 11,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pyme Gar Venturino S1": {
+ "ON Matias Ruiz S1": {
   "fondos": 11,
   "motivo": "sin clase o emisor"
  },
@@ -675,6 +687,10 @@
   "fondos": 11,
   "motivo": "fuera del universo / sin match"
  },
+ "ON ICBC Clase 8 280827": {
+  "fondos": 10,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Rombo Cia Fciera S64": {
   "fondos": 10,
   "motivo": "sin clase o emisor"
@@ -684,10 +700,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Pyme Calico S1": {
-  "fondos": 10,
-  "motivo": "sin clase o emisor"
- },
- "ON PyMe Gar Agropecuaria Sur S1": {
   "fondos": 10,
   "motivo": "sin clase o emisor"
  },
@@ -707,15 +719,27 @@
   "fondos": 10,
   "motivo": "sin clase o emisor"
  },
- "ON Maximia S1": {
+ "ON Ruta 3 Automotores C3": {
+  "fondos": 10,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Arcor C2 7.6%": {
+  "fondos": 10,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Agroideas 4": {
   "fondos": 10,
   "motivo": "sin clase o emisor"
  },
- "ON Matias Ruiz S1": {
+ "ON Pyme Prigioni Agro S1 C1": {
   "fondos": 10,
-  "motivo": "sin clase o emisor"
+  "motivo": "fuera del universo / sin match"
  },
  "ON Bco Macro Clase 1 Regs": {
+  "fondos": 10,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Agrofina Clase 12": {
   "fondos": 10,
   "motivo": "fuera del universo / sin match"
  },
@@ -725,10 +749,6 @@
  },
  "ON CGC C 40": {
   "fondos": 10,
-  "motivo": "fuera del universo / sin match"
- },
- "ON ICBC Clase 8 280827": {
-  "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
  "ON Toyota Clase 38": {
@@ -743,6 +763,18 @@
   "fondos": 9,
   "motivo": "sin clase o emisor"
  },
+ "ON BI Georgalos S2 C1": {
+  "fondos": 9,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON C&C Medicals S2": {
+  "fondos": 9,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Pyme Gar Rafaela Alimentos S1 C1": {
+  "fondos": 9,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Ruta 3 Automotores S1": {
   "fondos": 9,
   "motivo": "sin clase o emisor"
@@ -755,21 +787,33 @@
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
+ "ON AFS Group S1": {
+  "fondos": 9,
+  "motivo": "sin clase o emisor"
+ },
  "ON Argensun C2": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
+ "ON C&C Medicals S1": {
+  "fondos": 9,
+  "motivo": "sin clase o emisor"
+ },
+ "ON PyMe Gar Recard S1 300927": {
+  "fondos": 9,
+  "motivo": "sin clase o emisor"
+ },
  "ON Pymes Collins S1": {
+  "fondos": 9,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Com&Log S2 CA": {
   "fondos": 9,
   "motivo": "sin clase o emisor"
  },
  "ON Nuevas Tierras S1": {
   "fondos": 9,
   "motivo": "sin clase o emisor"
- },
- "ON Ruta 3 Automotores C3": {
-  "fondos": 9,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Agrofina Clase 11": {
   "fondos": 9,
@@ -779,17 +823,9 @@
   "fondos": 9,
   "motivo": "sin clase o emisor"
  },
- "ON Arcor C2 7.6%": {
-  "fondos": 9,
-  "motivo": "fuera del universo / sin match"
- },
  "ON FCA Comp. Finac CL 22 S1": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
- },
- "ON Agroideas 4": {
-  "fondos": 9,
-  "motivo": "sin clase o emisor"
  },
  "ON Pyme Halpern S1": {
   "fondos": 9,
@@ -803,10 +839,6 @@
   "fondos": 9,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme Prigioni Agro S1 C1": {
-  "fondos": 9,
-  "motivo": "fuera del universo / sin match"
- },
  "ON San Juan Bautista del Sur S1 C2": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
@@ -819,13 +851,25 @@
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Genneia Clase 39": {
+  "fondos": 9,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Red Surcos S9 Clase A": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
- "ON Agrofina Clase 12": {
+ "ON Bco Serv Transac C26": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
+ },
+ "ON Tecpetrol C10 RETAP": {
+  "fondos": 9,
+  "motivo": "ambiguo",
+  "candidatos": [
+   "TT1AD",
+   "TTCAD"
+  ]
  },
  "ON Farmacity C1": {
   "fondos": 9,
@@ -847,21 +891,9 @@
   "fondos": 8,
   "motivo": "sin clase o emisor"
  },
- "ON BI Georgalos S2 C1": {
-  "fondos": 8,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Lodiser S1": {
   "fondos": 8,
   "motivo": "sin clase o emisor"
- },
- "ON C&C Medicals S2": {
-  "fondos": 8,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme Gar Rafaela Alimentos S1 C1": {
-  "fondos": 8,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Pedrolga S2": {
   "fondos": 8,
@@ -887,15 +919,11 @@
   "fondos": 8,
   "motivo": "sin clase o emisor"
  },
+ "ON Pyme Indave S1": {
+  "fondos": 8,
+  "motivo": "sin clase o emisor"
+ },
  "ON Materia Hermanos S1 221227": {
-  "fondos": 8,
-  "motivo": "sin clase o emisor"
- },
- "ON AFS Group S1": {
-  "fondos": 8,
-  "motivo": "sin clase o emisor"
- },
- "ON C&C Medicals S1": {
   "fondos": 8,
   "motivo": "sin clase o emisor"
  },
@@ -903,23 +931,35 @@
   "fondos": 8,
   "motivo": "sin clase o emisor"
  },
- "ON PyMe Gar Recard S1 300927": {
+ "ON Ricardo Almar C2": {
   "fondos": 8,
-  "motivo": "sin clase o emisor"
- },
- "ON Com&Log S2 CA": {
-  "fondos": 8,
-  "motivo": "sin clase o emisor"
+  "motivo": "fuera del universo / sin match"
  },
  "ON Capex C4": {
   "fondos": 8,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Mastellone Clase 3": {
+  "fondos": 8,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Irsa 2035": {
+  "fondos": 8,
+  "motivo": "sin clase o emisor"
+ },
  "ON Cresud Clase 40": {
   "fondos": 8,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Pimento S1 C1": {
+  "fondos": 8,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Pyme Gimetal S1": {
+  "fondos": 8,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Pyme Garantizada Collins S1": {
   "fondos": 8,
   "motivo": "sin clase o emisor"
  },
@@ -951,18 +991,6 @@
   "fondos": 8,
   "motivo": "fuera del universo / sin match"
  },
- "ON Bco Serv Transac C26": {
-  "fondos": 8,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Tecpetrol C10 RETAP": {
-  "fondos": 8,
-  "motivo": "ambiguo",
-  "candidatos": [
-   "TT1AD",
-   "TTCAD"
-  ]
- },
  "ON FCA Comp. Finac CL 20 S1": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
@@ -987,6 +1015,10 @@
   "fondos": 7,
   "motivo": "sin clase o emisor"
  },
+ "ON Pyme Agroempresa Colon S1": {
+  "fondos": 7,
+  "motivo": "sin clase o emisor"
+ },
  "ON Special G y Petroagro C3": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
@@ -996,10 +1028,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Hogar y Tecnologia S2 221227": {
-  "fondos": 7,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme Indave S1": {
   "fondos": 7,
   "motivo": "sin clase o emisor"
  },
@@ -1019,19 +1047,11 @@
   "fondos": 7,
   "motivo": "sin clase o emisor"
  },
- "ON Ricardo Almar C2": {
-  "fondos": 7,
-  "motivo": "fuera del universo / sin match"
- },
  "ON PSA Serie 38": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
  },
  "ON Volkswagen Financial Services C16": {
-  "fondos": 7,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Mastellone Clase 3": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
  },
@@ -1043,11 +1063,7 @@
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
  },
- "ON Pimento S1 C1": {
-  "fondos": 7,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pyme Garantizada Collins S1": {
+ "ON Pamisa S1": {
   "fondos": 7,
   "motivo": "sin clase o emisor"
  },
@@ -1063,7 +1079,15 @@
   "fondos": 7,
   "motivo": "sin clase o emisor"
  },
+ "ON Yacopinin S1": {
+  "fondos": 7,
+  "motivo": "sin clase o emisor"
+ },
  "ON Pyme RDA Renting S3 C1": {
+  "fondos": 7,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Sumatoria C9": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
  },
@@ -1072,10 +1096,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON YPF Luz Cl10": {
-  "fondos": 7,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Genneia Clase 39": {
   "fondos": 7,
   "motivo": "fuera del universo / sin match"
  },
@@ -1123,10 +1143,6 @@
   "fondos": 6,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme Agroempresa Colon S1": {
-  "fondos": 6,
-  "motivo": "sin clase o emisor"
- },
  "ON Bramix 080528": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
@@ -1139,6 +1155,10 @@
   "fondos": 6,
   "motivo": "sin clase o emisor"
  },
+ "ON Hitcowork C1": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Silo Chico S1": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
@@ -1147,19 +1167,31 @@
   "fondos": 6,
   "motivo": "sin clase o emisor"
  },
- "ON Pamisa S1": {
+ "ON Irsa USD TF 8.75%": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
+ },
+ "ON Banco Prov Clase 3": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Madero Harbour S1 C1 161027": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
  },
  "ON Pymes Prochem Bio Clase A": {
   "fondos": 6,
   "motivo": "fuera del universo / sin match"
  },
- "ON Transportes Bogdan S1 CA": {
+ "ON 3D Latinoamerica 160129": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
  },
- "ON Yacopinin S1": {
+ "ON Pyme Gar Demagro S1 C1": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Transportes Bogdan S1 CA": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
  },
@@ -1179,15 +1211,23 @@
   "fondos": 6,
   "motivo": "fuera del universo / sin match"
  },
- "ON Irsa 2035": {
-  "fondos": 6,
-  "motivo": "sin clase o emisor"
- },
  "ON Pyme Gar Rafaela Alimentos S1 C2": {
   "fondos": 6,
   "motivo": "fuera del universo / sin match"
  },
+ "ON Famiq S1": {
+  "fondos": 6,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Red Surcos S12 Clase A": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Luz De Tres Picos C1": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Aluar Serie 8": {
   "fondos": 6,
   "motivo": "fuera del universo / sin match"
  },
@@ -1202,6 +1242,10 @@
  "ON Havanna S1": {
   "fondos": 6,
   "motivo": "sin clase o emisor"
+ },
+ "ON Fundación IFI C2": {
+  "fondos": 6,
+  "motivo": "fuera del universo / sin match"
  },
  "ON Banco Comafi C19": {
   "fondos": 6,
@@ -1227,15 +1271,7 @@
   "fondos": 5,
   "motivo": "sin clase o emisor"
  },
- "ON Hitcowork C1": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
  "ON J.Olivero 290927": {
-  "fondos": 5,
-  "motivo": "sin clase o emisor"
- },
- "ON Irsa USD TF 8.75%": {
   "fondos": 5,
   "motivo": "sin clase o emisor"
  },
@@ -1247,23 +1283,7 @@
   "fondos": 5,
   "motivo": "fuera del universo / sin match"
  },
- "ON Banco Prov Clase 3": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Madero Harbour S1 C1 161027": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
- "ON 3D Latinoamerica 160129": {
-  "fondos": 5,
-  "motivo": "sin clase o emisor"
- },
- "ON Pyme Gar Demagro S1 C1": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Sumatoria C9": {
+ "ON Pyme Cloronor S1 C2": {
   "fondos": 5,
   "motivo": "fuera del universo / sin match"
  },
@@ -1279,21 +1299,9 @@
   "fondos": 5,
   "motivo": "fuera del universo / sin match"
  },
- "ON Famiq S1": {
-  "fondos": 5,
-  "motivo": "sin clase o emisor"
- },
- "ON Red Surcos S12 Clase A": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Vista Energy 32": {
   "fondos": 5,
   "motivo": "sin clase o emisor"
- },
- "ON Aluar Serie 8": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Otamerica S5": {
   "fondos": 5,
@@ -1310,10 +1318,6 @@
  "ON Raghsa 2036": {
   "fondos": 5,
   "motivo": "sin clase o emisor"
- },
- "ON Fundación IFI C2": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Credicuotas Consumo S21": {
   "fondos": 5,
@@ -1351,10 +1355,6 @@
   "fondos": 4,
   "motivo": "sin clase o emisor"
  },
- "ON Pyme Cloronor S1 C2": {
-  "fondos": 4,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Volkswagen Financial Services C14": {
   "fondos": 4,
   "motivo": "fuera del universo / sin match"
@@ -1386,6 +1386,14 @@
  "ON PyME CNV GAR Biamaq S1 CA": {
   "fondos": 4,
   "motivo": "sin clase o emisor"
+ },
+ "ON Crown Point Energy C10": {
+  "fondos": 4,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON GEMSA y CTR C49": {
+  "fondos": 4,
+  "motivo": "fuera del universo / sin match"
  },
  "ON PyMe Gar Tresnal S4 CB": {
   "fondos": 4,
@@ -1424,6 +1432,14 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Aeropuertos 2000 C5": {
+  "fondos": 3,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Metallo S1 C2": {
+  "fondos": 3,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Convertible Fiplasto C1": {
   "fondos": 3,
   "motivo": "fuera del universo / sin match"
  },
@@ -1471,15 +1487,7 @@
   "fondos": 3,
   "motivo": "fuera del universo / sin match"
  },
- "ON Crown Point Energy C10": {
-  "fondos": 3,
-  "motivo": "fuera del universo / sin match"
- },
  "ON San Miguel Serie 10 CA": {
-  "fondos": 3,
-  "motivo": "fuera del universo / sin match"
- },
- "ON GEMSA y CTR C49": {
   "fondos": 3,
   "motivo": "fuera del universo / sin match"
  },
@@ -1523,13 +1531,13 @@
   "fondos": 2,
   "motivo": "fuera del universo / sin match"
  },
- "ON Metallo S1 C2": {
-  "fondos": 2,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Generacion Litoral C3": {
   "fondos": 2,
   "motivo": "fuera del universo / sin match"
+ },
+ "ON Hunt Oil 030238": {
+  "fondos": 2,
+  "motivo": "sin clase o emisor"
  },
  "ON President Petroleum S3": {
   "fondos": 2,
@@ -1574,6 +1582,10 @@
  "ON MSU S15": {
   "fondos": 2,
   "motivo": "sin clase o emisor"
+ },
+ "ON Pyme RDA Renting S3 C2": {
+  "fondos": 2,
+  "motivo": "fuera del universo / sin match"
  },
  "ON FCA Comp. Finac CL 21 S1": {
   "fondos": 2,
@@ -1655,6 +1667,10 @@
    "DNCAD"
   ]
  },
+ "ON Crown Point Energy C9": {
+  "fondos": 2,
+  "motivo": "fuera del universo / sin match"
+ },
  "ON Promedon S2": {
   "fondos": 2,
   "motivo": "sin clase o emisor"
@@ -1724,10 +1740,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Albanesi Energia Clase 16": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pyme RDA Renting S3 C2": {
   "fondos": 1,
   "motivo": "fuera del universo / sin match"
  },
@@ -1807,6 +1819,14 @@
   "fondos": 1,
   "motivo": "sin clase o emisor"
  },
+ "ON Apollo 5.7% 230131": {
+  "fondos": 1,
+  "motivo": "sin clase o emisor"
+ },
+ "ON Jaguar Land Rover 150729": {
+  "fondos": 1,
+  "motivo": "sin clase o emisor"
+ },
  "ON Celulosa Argentina C19": {
   "fondos": 1,
   "motivo": "fuera del universo / sin match"
@@ -1839,19 +1859,7 @@
   "fondos": 1,
   "motivo": "fuera del universo / sin match"
  },
- "ON Crown Point Energy C9": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Convertible Fiplasto C1": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Agrosuper 200132": {
-  "fondos": 1,
-  "motivo": "sin clase o emisor"
- },
- "ON Hunt Oil 030238": {
   "fondos": 1,
   "motivo": "sin clase o emisor"
  },
@@ -1930,6 +1938,14 @@
  "ON Ebucar S1": {
   "fondos": 1,
   "motivo": "sin clase o emisor"
+ },
+ "ON GEMSA Clase 26": {
+  "fondos": 1,
+  "motivo": "fuera del universo / sin match"
+ },
+ "ON Crown Point Energy C11": {
+  "fondos": 1,
+  "motivo": "fuera del universo / sin match"
  },
  "ON Gemsa CTR Regs 2027": {
   "fondos": 1,

@@ -145,6 +145,17 @@ def parse_fondo(h, fid):
     }
 
 
+def conservar(p):
+    """Renta Fija/Mixta siempre; cualquier otro tipo (Plazo Fijo, Renta Variable, Cerrado...) solo si
+    tiene alguna ON. Nunca los money market ni carteras con ON > 100% del patrimonio (dato corrupto)."""
+    if "money market" in p["nombre"].lower() or "mercado de dinero" in p["clasificacion"].lower():
+        return False
+    on = sum(a[2] for a in p["activos"] if es_on(a[0]))
+    if on > 100.5:
+        return False
+    return p["clasificacion"] in CLASES_OK or on > 0
+
+
 def scrape(limit, workers, shard=None, only_ids=None):
     fondos = lista_fondos()
     if only_ids:
@@ -177,7 +188,7 @@ def scrape(limit, workers, shard=None, only_ids=None):
                 print("  %d/%d  %.0fs" % (cont[0], len(fondos), time.time() - t0), flush=True)
             if p is None:
                 sin_cartera += 1
-            elif p["clasificacion"] in CLASES_OK:
+            elif conservar(p):
                 res.append(p)
 
     with ThreadPoolExecutor(max_workers=workers) as ex:
