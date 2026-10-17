@@ -31,12 +31,33 @@ def norm(s):
     return s.split()
 
 
+ROM = {"i": 1, "v": 5, "x": 10, "l": 50, "c": 100}
+
+
+def romano(t):
+    """'xviii' -> 18 ; None si no es un romano valido (1..60)."""
+    if not t or not re.match(r"^[ivxl]+$", t):
+        return None
+    tot = 0
+    for i, ch in enumerate(t):
+        v = ROM[ch]
+        tot += -v if i + 1 < len(t) and ROM[t[i + 1]] > v else v
+    return tot if 0 < tot <= 60 else None
+
+
+def normclase(c):
+    if c is None:
+        return None
+    r = romano(c)
+    return str(r) if r else c
+
+
 def parse(nombre):
     t = norm(nombre)
     # "c12", "c.12" -> c 12
     out = []
     for x in t:
-        m = re.match(r"^(c|cl)(\d+|[ivx]+)$", x)
+        m = re.match(r"^(c|cl)(\d+|[ivxl]+)$", x) if x != "cl" else None
         if m:
             out += [m.group(1), m.group(2)]
         else:
@@ -61,7 +82,7 @@ def parse(nombre):
         elif clase is None and x not in STOP and not x.isdigit():
             emi.append(SINON.get(x, x))
         i += 1
-    return set(emi), clase, serie
+    return set(emi), normclase(clase), serie
 
 
 def fecha_en(nombre):

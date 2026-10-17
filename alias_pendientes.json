@@ -1421,10 +1421,6 @@
   "fondos": 4,
   "motivo": "sin clase o emisor"
  },
- "ON Crown Point Energy C10": {
-  "fondos": 4,
-  "motivo": "fuera del universo / sin match"
- },
  "ON GEMSA y CTR C49": {
   "fondos": 4,
   "motivo": "fuera del universo / sin match"
@@ -1512,10 +1508,6 @@
  "ON Rombo Cia Fciera S68": {
   "fondos": 3,
   "motivo": "sin clase o emisor"
- },
- "ON YPF Clase XXVI": {
-  "fondos": 3,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Vitalcan C3": {
   "fondos": 3,
@@ -1608,10 +1600,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Pyme Agro de Souza S1 C2": {
-  "fondos": 2,
-  "motivo": "fuera del universo / sin match"
- },
- "ON YPF Clase XXIV": {
   "fondos": 2,
   "motivo": "fuera del universo / sin match"
  },
