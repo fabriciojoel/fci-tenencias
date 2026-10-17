@@ -103,7 +103,7 @@ ON Ratto Hnos S1 C1 110228;14;Pesos/UVA/CER/DL;HN11L;ON BI RATTO HNOS CL1 $ COMP
 ON Grz Georgalos S2 C2;14;Pesos/UVA/CER/DL;GE22P;ON GEORGALOS HNOS SAICA S2 C2;sin aclarar;;;
 ON TGLT Clase 16;14;Dudosa;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pan Amer. Energy C 18;14;Pesos/UVA/CER/DL;PNJCO;ON.PAN AMERCIAN ENERGY C 18 EF;sin aclarar;;;
-ON Vista Energy 33;14;USD;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
+ON Vista Energy 33;14;USD;VSCZO;ON VISTA ENERGY CL 33 USD CO;USD;;;
 ON BLM Desarrollos S1;14;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Vista Gas y Oil Arg C25;14;Pesos/UVA/CER/DL;VSCQO;ON.VISTA ENERGY ARG SAU CL XXV;sin aclarar;;;
 ON Oiltanking S2;14;USD;OT42O;ON OILTANKING S4 C2 USD CO;USD;;;
@@ -118,7 +118,7 @@ ON Pyme DeRentas S2;13;Pesos/UVA/CER/DL;DJS2L;ON BI DERENTAS SERIE 2 $ CO;sin ac
 ON Pyme Datastar S1;13;Pesos/UVA/CER/DL;ADS1L;ON BI DATASTAR SERIE I $ CO;sin aclarar;;;
 ON Diransa C2;13;Dudosa;DIC2L;ON BI DIRANSA CL2 COMPE;sin aclarar;;;
 ON Pyme Spazios Inmuebles S1 C1;13;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON Vista Energy 31;13;USD;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
+ON Vista Energy 31;13;USD;VSCXO;ON.VISTA ENERGY ARG SAU CL 31;sin aclarar;;;
 ON Pyme Gar Gruas San Blas S1;13;Pesos/UVA/CER/DL;HA11P;ON PYM GAR MADERO H S1 C1 CO;sin aclarar;;;
 ON Automotores Pampeanos Clase 1;13;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pyme Riboldi S1;13;Dudosa;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
@@ -318,7 +318,7 @@ ON Pyme Cloronor S1 C2;5;Pesos/UVA/CER/DL;OCS1L;ON.CLORONOR SERIE I B.IMP;sin ac
 ON PyME Sion Serie 4;5;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Toyota Clase 40;5;Pesos/UVA/CER/DL;TY40O;ON TOYOTA CLASE 40 $ CO;sin aclarar;;;
 ON Hector Bertone Mediano Impacto S1 C1;5;Pesos/UVA/CER/DL;EH11M;ON MI HECTOR BERTONE S1 C1 $;sin aclarar;;;
-ON Vista Energy 32;5;USD;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
+ON Vista Energy 32;5;USD;VSCYO;ON VISTA ENERGY CL32 CCL CO;USD;;;
 ON Otamerica S5;5;USD;OTS5O;ON OTAMERICA SERIE V USD CO;USD;;;
 ON CGC C 37;5;Dudosa;CP37O;ON CGC CLASE 37 USD COMPE;USD;;;
 ON Banco Comafi C27;5;USD;AFCTO;ON BANCO COMAFI CL 27 USD CO;USD;;;

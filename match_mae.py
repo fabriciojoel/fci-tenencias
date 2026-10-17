@@ -59,6 +59,10 @@ def main():
         E = {x for x in e if len(x) >= 3}
         fv = b.fecha_en(n)
         cl = {x for x in (c, s) if x}   # "Santander S 32": la serie es la clase
+        if not cl:   # "Vista Energy 33": numero suelto al final = clase
+            t = re.search(r"\s(\d{1,3})\s*$", n)
+            if t:
+                cl = {t.group(1)}
         cand = [m for m in M if E & m[0] and m[1] in cl] if cl else []
         if not cand and fv:
             cand = [m for m in M if E & m[0] and m[6] == fv]
