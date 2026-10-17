@@ -55,6 +55,7 @@ jobs:
       - name: Merge
         run: python scrape.py --merge parts
       - name: Commit data
+        if: ${{ github.event.inputs.limit == '' || github.event.inputs.limit == '0' }}
         run: |
           git config user.name "fci-tenencias-bot"
           git config user.email "actions@users.noreply.github.com"
