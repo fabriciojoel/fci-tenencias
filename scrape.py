@@ -125,23 +125,26 @@ def parse_fondo(h, fid):
     m = re.match(r"(\d\d)/(\d\d)/(\d\d)$", head.get("fecha", ""))
     fecha = "20%s-%s-%s" % (m.group(3), m.group(2), m.group(1)) if m else None
     # control de suma: disponibilidades + rubros + otros - pasivos ~ 100
-    suma = disp + sum(rubros.values()) + otros - pasivos
+    suma = disp + sum(rubros.values()) + otros + pasivos
     suma_act = sum(x[2] for x in activos)
     return {
         "id": fid, "nombre": head["nombre"], "gerente": head.get("gerente", ""),
         "clasificacion": head.get("clasificacion", ""), "moneda": head.get("moneda", ""),
         "fecha_cartera": fecha, "pn": pn, "total": total, "suma_rubros": round(suma, 2),
-        "suma_activos": round(suma_act + disp + otros - pasivos, 2),
+        "suma_activos": round(suma_act + disp + otros + pasivos, 2),
         "activos": activos,
     }
 
 
-def scrape(limit, workers):
+def scrape(limit, workers, shard=None):
     fondos = lista_fondos()
     print("fondos en la lista:", len(fondos), flush=True)
     if limit:
         paso = max(1, len(fondos) // limit)
         fondos = fondos[::paso][:limit]
+    if shard:
+        k, n = shard
+        fondos = fondos[k::n]
     res, fallas, sin_cartera = [], [], 0
     lock = threading.Lock()
     cont = [0]
@@ -254,7 +257,7 @@ def resumen_validacion(carteras, fallas, sin_cartera, total, out):
     L = ["## Scrape CNV carteras FCI", "",
          "- Fondos en la lista: %d  |  sin cartera: %d  |  fallas: %d" % (total, sin_cartera, len(fallas)),
          "- Renta Fija / Mixta con cartera: %d" % len(carteras),
-         "- Validacion de sumas (disp + rubros + otros - pasivos = 100 +-1): %d/%d fondos, %d gerentes distintas"
+         "- Validacion de sumas (disp + rubros + otros + pasivos = 100 +-1): %d/%d fondos, %d gerentes distintas"
          % (len(ok), len(carteras), len(gerentes_ok))]
     mal = [c for c in carteras if c not in ok][:10]
     if mal:
@@ -278,10 +281,45 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--from-raw")
+    ap.add_argument("--shard", help="K/N: procesa solo los fondos con indice = K mod N y guarda data/parts/shard-K.json")
+    ap.add_argument("--merge", help="directorio con shard-*.json a unir")
     a = ap.parse_args()
     os.makedirs(os.path.join(DATA, "carteras"), exist_ok=True)
     ap_path = os.path.join(HERE, "alias_on.json")
     alias = json.load(open(ap_path, encoding="utf-8")) if os.path.exists(ap_path) else {}
+    if a.shard:
+        k, n = [int(x) for x in a.shard.split("/")]
+        carteras, fallas, sin_cartera, total = scrape(a.limit, a.workers, (k, n))
+        os.makedirs(os.path.join(DATA, "parts"), exist_ok=True)
+        json.dump({"fondos": carteras, "fallas": len(fallas), "total": total, "sin_cartera": sin_cartera},
+                  open(os.path.join(DATA, "parts", "shard-%d.json" % k), "w", encoding="utf-8"),
+                  ensure_ascii=False, separators=(",", ":"))
+        return
+    if a.merge:
+        import glob
+        carteras, nf, sin_cartera, total = [], 0, 0, 0
+        for p in sorted(glob.glob(os.path.join(a.merge, "**", "shard-*.json"), recursive=True)):
+            d = json.load(open(p, encoding="utf-8"))
+            carteras += d["fondos"]
+            nf += d["fallas"]
+            sin_cartera += d["sin_cartera"]
+            total += d["total"]
+        if not carteras or nf / max(total, 1) > MAX_FALLA:
+            print("merge invalido: fondos=%d fallas=%d/%d" % (len(carteras), nf, total))
+            sys.exit(2)
+        carteras.sort(key=lambda x: x["id"])
+        p = os.path.join(DATA, "carteras", datetime.date.today().isoformat() + ".json")
+        json.dump({"generado": datetime.date.today().isoformat(), "fondos": carteras},
+                  open(p, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+        out = armar_tenencias(carteras, alias)
+        json.dump(out, open(os.path.join(DATA, "tenencias_on.json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, separators=(",", ":"))
+        res = resumen_validacion(carteras, [None] * nf, sin_cartera, total, out)
+        print(res)
+        sm = os.environ.get("GITHUB_STEP_SUMMARY")
+        if sm:
+            open(sm, "a", encoding="utf-8").write(res)
+        return
     if a.from_raw:
         raw = json.load(open(a.from_raw, encoding="utf-8"))
         carteras, fallas, sin_cartera, total = raw["fondos"], [], 0, len(raw["fondos"])

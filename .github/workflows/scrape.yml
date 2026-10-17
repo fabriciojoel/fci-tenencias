@@ -1,12 +1,16 @@
 name: scrape-carteras-fci
 
+# Tiempo esperado: desde EE.UU. la CNV tarda ~22 s por pagina y worker.
+# 1.706 fondos / 4 shards / 3 workers ~ 70-80 min por shard (en paralelo) + merge de segundos.
+# Desde una PC argentina la corrida completa tarda ~52 min con 2 workers (medido 17/10/2026).
+
 on:
   schedule:
     - cron: "0 10 2,17 * *"   # dias 2 y 17, 07:00 Argentina
   workflow_dispatch:
     inputs:
       limit:
-        description: "Prueba: cantidad de fondos (0 = corrida completa)"
+        description: "Prueba: fondos por shard (0 = corrida completa)"
         default: "0"
 
 permissions:
@@ -15,19 +19,44 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 340
+    strategy:
+      fail-fast: true
+      matrix:
+        shard: [0, 1, 2, 3]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Scrape CNV
+      - name: Scrape shard
         run: |
           L="${{ github.event.inputs.limit }}"
-          if [ -n "$L" ] && [ "$L" != "0" ]; then python scrape.py --limit "$L"; else python scrape.py; fi
+          if [ -n "$L" ] && [ "$L" != "0" ]; then ARGS="--limit $L"; else ARGS=""; fi
+          python scrape.py --shard ${{ matrix.shard }}/4 --workers 3 $ARGS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: data/parts/shard-${{ matrix.shard }}.json
+          retention-days: 3
+
+  merge:
+    needs: scrape
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/download-artifact@v4
+        with:
+          path: parts
+      - name: Merge
+        run: python scrape.py --merge parts
       - name: Commit data
         run: |
           git config user.name "fci-tenencias-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/tenencias_on.json data/carteras alias_pendientes.json 2>/dev/null || true
+          git add data/tenencias_on.json data/carteras
           if git diff --cached --quiet; then echo "sin cambios"; else git commit -m "datos $(date -u +%F)" && git push; fi
