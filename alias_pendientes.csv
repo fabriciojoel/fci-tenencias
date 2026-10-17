@@ -2,7 +2,6 @@
 ON P. Aconcagua Energia C21;67;Pesos/UVA/CER/DL;PECMO;ON PETRO ACONCAGUA C21 DL UNIC;Dólar Linked;;;
 ON Banco Nacion Argentina Clase 1;61;Pesos/UVA/CER/DL;NZC1O | NZC3O;TD BCO NACION CL 1 $ COMPE | TD BCO NACION CL 1 UVA COMPE;sin aclarar | UVA;;;
 ON P. Aconcagua Energia C19;56;Pesos/UVA/CER/DL;PECKO;ON PETRO ACONCAGUA C19 DL UNIC;Dólar Linked;;;
-ON GEMSA y CTR C43;54;Pesos/UVA/CER/DL;MR43O;ON GEN MEDIT Y CT ROCA SA CL43;sin aclarar;;;
 ON BBVA Frances Cl 47;45;Pesos/UVA/CER/DL;BF47O;ON BANCO BBVA CLASE 47 $ CO;sin aclarar;;;
 ON Vaca Muerta C1;45;Dudosa;VMC1O;ON VACA MUERTA SUR CL 1 USD CO;USD;;;
 ON Vista Gas y Oil Arg C18;44;Pesos/UVA/CER/DL;VSCJO;ON.VISTA OIL & GAS CL XVIII;sin aclarar;;;
@@ -23,8 +22,6 @@ ON ICBC Clase 5 110327;33;Pesos/UVA/CER/DL;ICC5O;ON ICBC CLASE 5 $ COMPE;sin acl
 ON Genneia Clase 37;33;Pesos/UVA/CER/DL;GN37O;ON. GENNEIA S.A. CL 37;sin aclarar;;;
 ON Banco Nacion Argentina Clase 3;33;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Arcor C6;33;Pesos/UVA/CER/DL;RC6CO;ON ARCOR CLASE 6 $ CO;sin aclarar;;;
-ON Pan American C40;32;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON YPF Clase XXVII;31;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Aluar Serie 6;31;Pesos/UVA/CER/DL;LMS6O;ON.ALUAR SERIE 6;sin aclarar;;;
 ON Pampa Energia C13;31;Pesos/UVA/CER/DL;MGCEO;ON PAMPA ENERGIA CL 13;sin aclarar;;;
 ON Banco Comafi C22;30;Pesos/UVA/CER/DL;AFCNO;ON BANCO COMAFI CL 22 $ CO;sin aclarar;;;
@@ -195,7 +192,6 @@ ON Pymes Collins S1;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MA
 ON Com&Log S2 CA;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Nuevas Tierras S1;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Agrofina Clase 11;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON GEMSA 18;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON FCA Comp. Finac CL 22 S1;9;Pesos/UVA/CER/DL;FTN1O | FTN2O | FTN3O;ON FCA C22 SERIE 1 UVA T UNICO | ON FCA C22 SERIE 2 $ T UNICO | ON FCA C22 SERIE 3 $ T UNICO;UVA | sin aclarar | sin aclarar;;;
 ON Pyme Halpern S1;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Caiman S2 Clase A;9;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
@@ -274,7 +270,6 @@ ON P. Aconcagua Energia C22;7;USD;PECNO;ON PETRO ACONCAGUA C22 D UNICO;USD;;;
 ON Credicuotas Consumo S24;7;USD;DHSPO;ON CREDICUOTAS SERIE 24 USD CO;USD;;;
 ON YPF 2047;6;Dudosa;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
 ON PSA Serie 37;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON GEMSA 17;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Bramix 080528;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pyme Spazios Inmuebles S1 C2;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Yacopini Sud S1;6;Pesos/UVA/CER/DL;DKC1O | YIS1L;ON CENTRAL DOCK SUD CL1 USD CO | ON BI YACOPINI SERIE 1 $ CO;USD | sin aclarar;;;
@@ -309,7 +304,6 @@ ON Cohen S1;5;Dudosa;;;;No está en el catálogo vigente de MAE (puede estar ven
 ON PyMe Gar Recard S2 210728;5;Pesos/UVA/CER/DL;SB12L;ON PYM GAR BI SB DEL SUR C2 DL;Dólar Linked;;;
 ON J.Olivero 290927;5;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Rizobacter S 11 CA;5;Pesos/UVA/CER/DL;RZBAO | RZBBO | RZBCO;ON.RIZOBACTER ARG SERIE XI CLA | ON.RIZOBACTER ARG SERIE XI CLB | ON.RIZOBACTER ARG SERIE XI CLC;sin aclarar | sin aclarar | sin aclarar;;;
-ON GEMSA y CTR C36;5;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pyme Cloronor S1 C2;5;Pesos/UVA/CER/DL;OCS1L;ON.CLORONOR SERIE I B.IMP;sin aclarar;;;
 ON PyME Sion Serie 4;5;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Toyota Clase 40;5;Pesos/UVA/CER/DL;TY40O;ON TOYOTA CLASE 40 $ CO;sin aclarar;;;
@@ -335,7 +329,6 @@ ON Pyme Gar Demagro S1 C2;4;Pesos/UVA/CER/DL;DM11L | DM12L | HA11P;ON BI DEMAGRO
 ON CRE-NOR S1;4;Pesos/UVA/CER/DL;ONS1P;ON CRE NOR SERIE I $ COMPE;sin aclarar;;;
 ON San Antonio O&G S1 CA;4;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON PyME CNV GAR Biamaq S1 CA;4;Pesos/UVA/CER/DL;HA11P;ON PYM GAR MADERO H S1 C1 CO;sin aclarar;;;
-ON GEMSA y CTR C49;4;Pesos/UVA/CER/DL;MR49O;ON GEN MEDIT Y CT ROCA SA CL49;sin aclarar;;;
 ON PyMe Gar Tresnal S4 CB;4;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON 360 Energy Solar C4;4;Dudosa;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Aeropuertos 2000 2027;4;USD;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
@@ -359,7 +352,6 @@ ON Pyme Gente de la Pampa S1 2027;3;Pesos/UVA/CER/DL;;;;Bono internacional (tasa
 ON Rombo Cia Fciera S68;3;Pesos/UVA/CER/DL;RB68O;ON ROMBO SERIE 68 $ COMPE;sin aclarar;;;
 ON Vitalcan C3;3;Dudosa;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON San Miguel Serie 10 CA;3;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON GEMSA y CTR C50;3;Pesos/UVA/CER/DL;MR50O;ON GEN MEDIT Y CT ROCA SA CL50;sin aclarar;;;
 ON CGC C 27;3;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pyme Zafra S2 CB;3;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON SAT Financial Planning S1 C1;3;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
@@ -426,12 +418,9 @@ ON Angel Estrada C12;1;Pesos/UVA/CER/DL;NLCDO;ON ANGEL ESTRADA Y CIA CL 12;sin a
 ON Ozog Vial S1 CB;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Los Nogales S1 CB;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON SPI Energy C2;1;Pesos/UVA/CER/DL;SPC2O;ON SPI ENERGY CLASE 2;sin aclarar;;;
-ON GEMSA 19;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON 360 Energy Solar C3;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON PyME Sion Serie 5;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Corporacion Nacional del Cobre 3.75% 150131;1;USD;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
-ON GEMSA Clase 27;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON GEMSA Clase 30;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Edenor C10;1;USD;DNCAO;ON EDENOR CL 10 S2 USD EXT CO;USD;;DN1AD, DNCAD;
 ON PyME Hattrick Energy S1 C2;1;USD;HTS2M;ON MI HATTRICK SERIE 2 USD UNI;USD;;;
 ON Meranol Clase 38;1;USD;MR38P;ON PYM CNV MERANOL C38 USD UNI;USD;;;
@@ -440,7 +429,6 @@ ON Codelco 080134;1;USD;;;;No está en el catálogo vigente de MAE (puede estar 
 ON Apollo 5.7% 230131;1;USD;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
 ON Jaguar Land Rover 150729;1;USD;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Celulosa Argentina C19;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
-ON GEMSA y CTR C35;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON PSA Serie 31;1;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Clisa 2027 REGS;1;USD;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
 ON Pyme Gar Swiss Medical S1;1;Pesos/UVA/CER/DL;HA11P;ON PYM GAR MADERO H S1 C1 CO;sin aclarar;;;

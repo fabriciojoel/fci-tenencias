@@ -11,10 +11,6 @@
   "fondos": 56,
   "motivo": "fuera del universo / sin match"
  },
- "ON GEMSA y CTR C43": {
-  "fondos": 54,
-  "motivo": "fuera del universo / sin match"
- },
  "ON BBVA Frances Cl 47": {
   "fondos": 45,
   "motivo": "fuera del universo / sin match"
@@ -97,14 +93,6 @@
  },
  "ON Arcor C6": {
   "fondos": 33,
-  "motivo": "fuera del universo / sin match"
- },
- "ON Pan American C40": {
-  "fondos": 32,
-  "motivo": "fuera del universo / sin match"
- },
- "ON YPF Clase XXVII": {
-  "fondos": 31,
   "motivo": "fuera del universo / sin match"
  },
  "ON Aluar Serie 6": {
@@ -809,10 +797,6 @@
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
  },
- "ON GEMSA 18": {
-  "fondos": 9,
-  "motivo": "sin clase o emisor"
- },
  "ON FCA Comp. Finac CL 22 S1": {
   "fondos": 9,
   "motivo": "fuera del universo / sin match"
@@ -1135,10 +1119,6 @@
   "fondos": 6,
   "motivo": "fuera del universo / sin match"
  },
- "ON GEMSA 17": {
-  "fondos": 6,
-  "motivo": "sin clase o emisor"
- },
  "ON Bramix 080528": {
   "fondos": 6,
   "motivo": "sin clase o emisor",
@@ -1297,10 +1277,6 @@
   "fondos": 5,
   "motivo": "sin clase o emisor"
  },
- "ON GEMSA y CTR C36": {
-  "fondos": 5,
-  "motivo": "fuera del universo / sin match"
- },
  "ON Pyme Cloronor S1 C2": {
   "fondos": 5,
   "motivo": "fuera del universo / sin match"
@@ -1405,10 +1381,6 @@
   "fondos": 4,
   "motivo": "sin clase o emisor"
  },
- "ON GEMSA y CTR C49": {
-  "fondos": 4,
-  "motivo": "fuera del universo / sin match"
- },
  "ON PyMe Gar Tresnal S4 CB": {
   "fondos": 4,
   "motivo": "sin clase o emisor"
@@ -1498,10 +1470,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON San Miguel Serie 10 CA": {
-  "fondos": 3,
-  "motivo": "fuera del universo / sin match"
- },
- "ON GEMSA y CTR C50": {
   "fondos": 3,
   "motivo": "fuera del universo / sin match"
  },
@@ -1789,10 +1757,6 @@
   "fondos": 1,
   "motivo": "fuera del universo / sin match"
  },
- "ON GEMSA 19": {
-  "fondos": 1,
-  "motivo": "sin clase o emisor"
- },
  "ON 360 Energy Solar C3": {
   "fondos": 1,
   "motivo": "sin clase o emisor"
@@ -1806,14 +1770,6 @@
   "motivo": "sin clase o emisor",
   "vencimiento": "2031-01-15",
   "mismo_vencimiento_en_sitio": []
- },
- "ON GEMSA Clase 27": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
- },
- "ON GEMSA Clase 30": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
  },
  "ON Edenor C10": {
   "fondos": 1,
@@ -1854,10 +1810,6 @@
   "mismo_vencimiento_en_sitio": []
  },
  "ON Celulosa Argentina C19": {
-  "fondos": 1,
-  "motivo": "fuera del universo / sin match"
- },
- "ON GEMSA y CTR C35": {
   "fondos": 1,
   "motivo": "fuera del universo / sin match"
  },
