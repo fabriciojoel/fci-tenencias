@@ -64,13 +64,24 @@ def parse(nombre):
     return set(emi), clase, serie
 
 
+def fecha_en(nombre):
+    """ddmmyy en el nombre -> ISO (None si no hay una fecha valida)."""
+    import datetime
+    for m in re.finditer(r"(?<!\d)(\d\d)(\d\d)(\d\d)(?!\d)", nombre):
+        try:
+            return datetime.date(2000 + int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()
+        except ValueError:
+            continue
+    return None
+
+
 def main():
     raw = json.load(open(sys.argv[1], encoding="utf-8"))
     uni = json.load(open(os.path.join(HERE, "universo_sitio.json"), encoding="utf-8"))
     U = []
-    for nom, tk in uni:
+    for nom, tk, venc in uni:
         e, c, s = parse(nom)
-        U.append((e, c, s, tk, nom))
+        U.append((e, c, s, tk, nom, venc))
     cuentas = Counter()
     for f in raw["fondos"]:
         for n, _r, _p in f["activos"]:
@@ -83,6 +94,12 @@ def main():
         if n in alias or re.search(r"\b[A-Z0-9]{4}[ODC]\b", n):
             continue
         e, c, s = parse(n)
+        fv = fecha_en(n)
+        if fv:   # "ON YPF 210727": emisor + fecha de vencimiento (ddmmyy)
+            cd = [u for u in U if u[5] == fv and {x for x in e if len(x) >= 3} & u[0] and not (c and u[1] and c != u[1])]
+            if len({u[3] for u in cd}) == 1:
+                nuevos[n] = cd[0][3]
+                continue
         if not c or not e:
             pend[n] = {"fondos": k, "motivo": "sin clase o emisor"}
             continue
@@ -98,6 +115,11 @@ def main():
         else:
             pend[n] = {"fondos": k, "motivo": "fuera del universo / sin match"}
     alias.update(nuevos)
+    for n, v in pend.items():
+        fv = fecha_en(n)
+        if fv:
+            v["vencimiento"] = fv
+            v["mismo_vencimiento_en_sitio"] = [u[3] + " " + u[4] for u in U if u[5] == fv]
     json.dump(dict(sorted(alias.items())), open(ap, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(pend, open(os.path.join(HERE, "alias_pendientes.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)

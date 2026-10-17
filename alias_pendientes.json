@@ -93,7 +93,11 @@
  },
  "ON ICBC Clase 5 110327": {
   "fondos": 33,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2027-03-11",
+  "mismo_vencimiento_en_sitio": [
+   "VBC1D BANCO DE VALORES C1"
+  ]
  },
  "ON Genneia Clase 37": {
   "fondos": 33,
@@ -151,10 +155,6 @@
   "fondos": 26,
   "motivo": "fuera del universo / sin match"
  },
- "ON AES Argentina Gen 060828": {
-  "fondos": 26,
-  "motivo": "sin clase o emisor"
- },
  "ON TGS C4 Reg S": {
   "fondos": 26,
   "motivo": "fuera del universo / sin match"
@@ -173,7 +173,9 @@
  },
  "ON ICBC Clase 4 281126": {
   "fondos": 24,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2026-11-28",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Bco Provincia Cl 4": {
   "fondos": 24,
@@ -193,7 +195,9 @@
  },
  "ON ICBC Clase 7 170627": {
   "fondos": 23,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2027-06-17",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Mercado Pago C3": {
   "fondos": 23,
@@ -303,10 +307,6 @@
   "fondos": 17,
   "motivo": "fuera del universo / sin match"
  },
- "ON Banco Mariva S3 060727": {
-  "fondos": 17,
-  "motivo": "sin clase o emisor"
- },
  "ON YPF 2029": {
   "fondos": 16,
   "motivo": "sin clase o emisor"
@@ -391,10 +391,6 @@
   "fondos": 14,
   "motivo": "fuera del universo / sin match"
  },
- "ON YPF 210727": {
-  "fondos": 14,
-  "motivo": "sin clase o emisor"
- },
  "ON Banco Prov Clase 7": {
   "fondos": 14,
   "motivo": "fuera del universo / sin match"
@@ -421,7 +417,9 @@
  },
  "ON Ratto Hnos S1 C1 110228": {
   "fondos": 14,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2028-02-11",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Grz Georgalos S2 C2": {
   "fondos": 14,
@@ -689,7 +687,13 @@
  },
  "ON ICBC Clase 8 280827": {
   "fondos": 10,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2027-08-28",
+  "mismo_vencimiento_en_sitio": [
+   "ICC9D ICBC ARGENTINA C9",
+   "LECGD ALBANESI ENERGIA C15",
+   "PUC2D PETROLEOS SUDAMERICANOS C2"
+  ]
  },
  "ON Rombo Cia Fciera S64": {
   "fondos": 10,
@@ -801,7 +805,9 @@
  },
  "ON PyMe Gar Recard S1 300927": {
   "fondos": 9,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-09-30",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Pymes Collins S1": {
   "fondos": 9,
@@ -925,7 +931,9 @@
  },
  "ON Materia Hermanos S1 221227": {
   "fondos": 8,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-12-22",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Agronorte S3 CA": {
   "fondos": 8,
@@ -1029,7 +1037,9 @@
  },
  "ON Hogar y Tecnologia S2 221227": {
   "fondos": 7,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-12-22",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Pyme Gar ENTRE S1": {
   "fondos": 7,
@@ -1057,7 +1067,9 @@
  },
  "ON Hogar y Tecnología S1 131027": {
   "fondos": 7,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-10-13",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Tecnovax S1 C1": {
   "fondos": 7,
@@ -1145,7 +1157,11 @@
  },
  "ON Bramix 080528": {
   "fondos": 6,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2028-05-08",
+  "mismo_vencimiento_en_sitio": [
+   "BF44D BANCO BBVA ARGENTINA C44"
+  ]
  },
  "ON Pyme Spazios Inmuebles S1 C2": {
   "fondos": 6,
@@ -1177,7 +1193,11 @@
  },
  "ON Madero Harbour S1 C1 161027": {
   "fondos": 6,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2027-10-16",
+  "mismo_vencimiento_en_sitio": [
+   "TTCBD TECPETROL S.A. C11"
+  ]
  },
  "ON Pymes Prochem Bio Clase A": {
   "fondos": 6,
@@ -1185,7 +1205,11 @@
  },
  "ON 3D Latinoamerica 160129": {
   "fondos": 6,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-01-16",
+  "mismo_vencimiento_en_sitio": [
+   "SBC2D SCANIA CREDIT ARG. C2"
+  ]
  },
  "ON Pyme Gar Demagro S1 C1": {
   "fondos": 6,
@@ -1201,7 +1225,11 @@
  },
  "ON Madero Harbour S1 C2 161027": {
   "fondos": 6,
-  "motivo": "fuera del universo / sin match"
+  "motivo": "fuera del universo / sin match",
+  "vencimiento": "2027-10-16",
+  "mismo_vencimiento_en_sitio": [
+   "TTCBD TECPETROL S.A. C11"
+  ]
  },
  "ON Intercon S2 C1": {
   "fondos": 6,
@@ -1269,11 +1297,17 @@
  },
  "ON PyMe Gar Recard S2 210728": {
   "fondos": 5,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2028-07-21",
+  "mismo_vencimiento_en_sitio": [
+   "PQCTD PETROQ. COMODORO RIV. C.T."
+  ]
  },
  "ON J.Olivero 290927": {
   "fondos": 5,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-09-29",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Rizobacter S 11 CA": {
   "fondos": 5,
@@ -1325,7 +1359,9 @@
  },
  "ON AES Argentina Gen 150329": {
   "fondos": 4,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-03-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Pyme Gar Latitud 45 S2 C3": {
   "fondos": 4,
@@ -1337,15 +1373,13 @@
  },
  "ON 3D Latinoamerica 130827": {
   "fondos": 4,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-08-13",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Lab. Richmond S7 Clase A": {
   "fondos": 4,
   "motivo": "fuera del universo / sin match"
- },
- "ON MSU Energy 160636": {
-  "fondos": 4,
-  "motivo": "sin clase o emisor"
  },
  "ON Deposito Fiscal Cordoba S1": {
   "fondos": 4,
@@ -1517,7 +1551,11 @@
  },
  "ON Centro Interacción Multimedia 070929": {
   "fondos": 3,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-09-07",
+  "mismo_vencimiento_en_sitio": [
+   "CP41D CIA. GRAL. COMBUSTIBLES C41"
+  ]
  },
  "ON Lab. Richmond S8 Clase B": {
   "fondos": 3,
@@ -1537,13 +1575,11 @@
  },
  "ON Hunt Oil 030238": {
   "fondos": 2,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2038-02-03",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON President Petroleum S3": {
-  "fondos": 2,
-  "motivo": "sin clase o emisor"
- },
- "ON Clisa 101234": {
   "fondos": 2,
   "motivo": "sin clase o emisor"
  },
@@ -1637,15 +1673,21 @@
  },
  "ON Barclays Bank 040429": {
   "fondos": 2,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-04-04",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Jaguar Land Rover 011027": {
   "fondos": 2,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-10-01",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Aramco 211029": {
   "fondos": 2,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-10-21",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Tidewater Inc.": {
   "fondos": 2,
@@ -1697,11 +1739,15 @@
  },
  "ON Gpo Televisa 310146": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2046-01-31",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Codelco 130135": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2035-01-13",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Bco Columbia S2": {
   "fondos": 1,
@@ -1785,7 +1831,9 @@
  },
  "ON Corporacion Nacional del Cobre 3.75% 150131": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2031-01-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON GEMSA Clase 27": {
   "fondos": 1,
@@ -1817,15 +1865,21 @@
  },
  "ON Codelco 080134": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2034-01-08",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Apollo 5.7% 230131": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2031-01-23",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Jaguar Land Rover 150729": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-07-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Celulosa Argentina C19": {
   "fondos": 1,
@@ -1853,7 +1907,9 @@
  },
  "ON Turning Point Brands 150332": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2032-03-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Inclusión Financiera Integral S2 C2": {
   "fondos": 1,
@@ -1861,7 +1917,9 @@
  },
  "ON Agrosuper 200132": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2032-01-20",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Pyme Gar Hector Bertone S1 C3": {
   "fondos": 1,
@@ -1869,7 +1927,9 @@
  },
  "ON Gpo Televisa 8.5% 110332": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2032-03-11",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Albanesi Energia Clase 17": {
   "fondos": 1,
@@ -1893,11 +1953,15 @@
  },
  "ON Zebra Technologies 010632": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2032-06-01",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Adani Ports 300727": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2027-07-30",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Eleven 2028": {
   "fondos": 1,
@@ -1905,31 +1969,49 @@
  },
  "ON Ally 130629": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-06-13",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Yara 040630": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2030-06-04",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON HTA Group 040629": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-06-04",
+  "mismo_vencimiento_en_sitio": [
+   "CACDD CAPEX S.A. 2029 C12"
+  ]
  },
  "ON Western Union 150629": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-06-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Centene 150129": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-01-15",
+  "mismo_vencimiento_en_sitio": [
+   "HJCKD JOHN DEERE CREDIT C19"
+  ]
  },
  "ON HF Sinclair 150131": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2031-01-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Meritage Homes 150429": {
   "fondos": 1,
-  "motivo": "sin clase o emisor"
+  "motivo": "sin clase o emisor",
+  "vencimiento": "2029-04-15",
+  "mismo_vencimiento_en_sitio": []
  },
  "ON Rizobacter S 11 CB": {
   "fondos": 1,
