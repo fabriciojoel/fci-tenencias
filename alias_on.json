@@ -177,6 +177,7 @@
  "ON Vista Gas y Oil Arg C27": "VSCTD",
  "ON Vista Gas y Oil Arg C28": "VSCUD",
  "ON Vista Gas y Oil Arg C29": "VSCVD",
+ "ON YPF 2047": "YCAND",
  "ON YPF 210727": "YCAMD",
  "ON YPF C 17": "YFCID",
  "ON YPF C 18": "YFCJD",
@@ -193,7 +194,7 @@
  "ON YPF Clase 42": "YM42D",
  "ON YPF Clase 43": "YM43D",
  "ON YPF Clase 44": "YM44D",
- "ON YPF Clase XXIV": "YFCPD",
+ "ON YPF Clase XXIV": "YMCPD",
  "ON YPF Clase XXVI": "YMCRD",
  "ON YPF Clase XXVII": "YPCTD",
  "ON YPF Energia Electrica C21": "YFCMD",
@@ -202,5 +203,6 @@
  "ON YPF Luz C20": "YFCLD",
  "ON YPF Luz C23": "YFCOD",
  "ON YPF Luz C24": "YFCPD",
+ "ON YPF Luz Clase 14": "YFCFD",
  "ON YPF Luz Clase 15": "YFCGD"
 }

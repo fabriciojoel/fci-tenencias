@@ -205,7 +205,6 @@ ON Bco Serv Transac C26;9;USD;;;;No está en el catálogo vigente de MAE (puede 
 ON Tecpetrol C10 RETAP;9;USD;TT1AO | TTCAO;ON.TECPETROL S.A. CLASE 10 adi | ON.TECPETROL S.A. CLASE 10;sin aclarar | sin aclarar;;TT1AD, TTCAD;
 ON Farmacity C1;9;USD;FYC1O;ON FARMACITY CLASE I USD CO;USD;;;
 ON Pan American C41;9;USD;PN41O;ON PAE CLASE 41 USD COMPE;USD;;;
-ON YPF Luz Clase 14;8;Pesos/UVA/CER/DL;YFCFO;ON.YPF ENERGIA ELECTRICA CL 14;sin aclarar;;;
 ON P. Aconcagua Energia C18;8;Pesos/UVA/CER/DL;PECJO;ON PETR. ACONCAGUA ENERGIA C18;sin aclarar;;;
 ON Credicuotas Consumo S22;8;Pesos/UVA/CER/DL;DHSNO;ON CREDICUOTAS SERIE 22 $ CO;sin aclarar;;;
 ON Lodiser S1;8;Pesos/UVA/CER/DL;LJC1L;ON BAJO IMP LODISER CL 1 $ CO;sin aclarar;;;
@@ -268,7 +267,6 @@ ON Credicuotas Consumo S23;7;USD;DHSOO;ON CREDICUOTAS SERIE 23 USD CO;USD;;;
 ON Petroqui C Rivadavia Clase S;7;USD;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON P. Aconcagua Energia C22;7;USD;PECNO;ON PETRO ACONCAGUA C22 D UNICO;USD;;;
 ON Credicuotas Consumo S24;7;USD;DHSPO;ON CREDICUOTAS SERIE 24 USD CO;USD;;;
-ON YPF 2047;6;Dudosa;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;
 ON PSA Serie 37;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Bramix 080528;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
 ON Pyme Spazios Inmuebles S1 C2;6;Pesos/UVA/CER/DL;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;
