@@ -95,6 +95,12 @@ def parse_fondo(h, fid):
                 head["fecha"] = c[1]
             elif k.startswith("gerente"):
                 head["gerente"] = c[1]
+            elif k.startswith("depositaria"):
+                head["depositaria"] = c[1]
+            elif k.startswith("regi"):
+                head["region"] = c[1]
+            elif k.startswith("horizonte"):
+                head["horizonte"] = c[1]
             elif k.startswith("clasific"):
                 head["clasificacion"] = c[1]
             elif k.startswith("moneda"):
@@ -129,15 +135,20 @@ def parse_fondo(h, fid):
     suma_act = sum(x[2] for x in activos)
     return {
         "id": fid, "nombre": head["nombre"], "gerente": head.get("gerente", ""),
-        "clasificacion": head.get("clasificacion", ""), "moneda": head.get("moneda", ""),
+        "clasificacion": head.get("clasificacion", ""),
+        "depositaria": head.get("depositaria", ""), "region": head.get("region", ""),
+        "horizonte": head.get("horizonte", ""), "rubros": rubros,
+        "disponibilidades": disp, "otros_activos": otros, "pasivos": pasivos, "moneda": head.get("moneda", ""),
         "fecha_cartera": fecha, "pn": pn, "total": total, "suma_rubros": round(suma, 2),
         "suma_activos": round(suma_act + disp + otros + pasivos, 2),
         "activos": activos,
     }
 
 
-def scrape(limit, workers, shard=None):
+def scrape(limit, workers, shard=None, only_ids=None):
     fondos = lista_fondos()
+    if only_ids:
+        fondos = [f for f in fondos if f[0] in only_ids]
     print("fondos en la lista:", len(fondos), flush=True)
     if limit:
         paso = max(1, len(fondos) // limit)
@@ -281,6 +292,7 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--workers", type=int, default=2)
     ap.add_argument("--from-raw")
+    ap.add_argument("--only-ids", help="raw previo: solo re-scrapea los ids que tiene")
     ap.add_argument("--shard", help="K/N: procesa solo los fondos con indice = K mod N y guarda data/parts/shard-K.json")
     ap.add_argument("--merge", help="directorio con shard-*.json a unir")
     a = ap.parse_args()
@@ -324,7 +336,8 @@ def main():
         raw = json.load(open(a.from_raw, encoding="utf-8"))
         carteras, fallas, sin_cartera, total = raw["fondos"], [], 0, len(raw["fondos"])
     else:
-        carteras, fallas, sin_cartera, total = scrape(a.limit, a.workers)
+        only = {f["id"] for f in json.load(open(a.only_ids, encoding="utf-8"))["fondos"]} if a.only_ids else None
+        carteras, fallas, sin_cartera, total = scrape(a.limit, a.workers, None, only)
         if not a.limit:
             p = os.path.join(DATA, "carteras", datetime.date.today().isoformat() + ".json")
             json.dump({"generado": datetime.date.today().isoformat(), "fondos": carteras},
