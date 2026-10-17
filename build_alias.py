@@ -21,7 +21,10 @@ STOP = {"on", "sa", "s", "a", "de", "la", "del", "cia", "fin", "financiera", "ar
         "obligaciones", "negociables", "gen", "generacion", "energy", "energia", "electrica", "servicios",
         "ind", "capital", "solar", "green", "gas", "oil", "petroleo", "energias", "internacional"}
 SINON = {"frances": "bbva", "bbva": "bbva", "tarj": "naranja", "tarjeta": "naranja", "hipotecario": "hipotecario",
-         "pan": "pae", "amer": "pae", "american": "pae"}
+         "pan": "pae", "amer": "pae", "american": "pae", "amercian": "pae", "pae": "pae",
+         "gemsa": "roca", "ctr": "roca", "ct": "roca", "roca": "roca", "medit": "roca", "mediterranea": "roca",
+         "oleoducto": "oldelval", "oleoductos": "oldelval", "oldelval": "oldelval", "valle": "oldelval",
+         "pcr": "pcr", "petroq": "pcr", "petroquimica": "pcr", "comodoro": "pcr", "rivadavia": "pcr"}
 MARC = {"c", "cl", "clase", "serie", "ser"}
 
 
