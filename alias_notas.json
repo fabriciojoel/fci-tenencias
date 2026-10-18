@@ -8,5 +8,8 @@
  "ON Pluspetrol 8.5% 2032 (REGS)": "Es la Clase 4 de Pluspetrol (8,5% 30/05/2032, USD 650 M con la reapertura); ticker PLC4D",
  "ON Generacion Litoral C1": "Clase I, vto 28/03/2028 (web) = GOC1D en BYMA",
  "ON Energias Renovables Las Lomas Clase 1": "Hoy MSU Green Energy; Clase 1 USD 22,6 M, 1%, vto 12/10/2026 (ya vencida); ticker no confirmado",
- "ON Banco Nacion Argentina Clase 3": "Clase 3 UVA +5,25%, 24 meses (La Nacion/Bloomberg Linea); MAE NZC3O; no esta en BYMA"
+ "ON Banco Nacion Argentina Clase 3": "Clase 3 UVA +5,25%, 24 meses (La Nacion/Bloomberg Linea); MAE NZC3O; no esta en BYMA",
+ "ON YPF C 17": "YPF S.A. Clase XVII (canje feb-2021, vto 30/06/2029, ISIN USP989MJBS99) = YMCID. Antes mal cruzada con YPF Luz C17 (YFCID): Novus Capital tiene las dos como lineas separadas",
+ "ON YPF C 18": "YPF S.A. Clase XVIII (canje feb-2021, vto 2033, ISIN USP989MJBT72) = YMCJD. Antes mal cruzada con YPF Luz C18 (YFCJD): Pionero Dolar Dinamico tiene 'ON YPF Luz C18 YFCJO' aparte",
+ "ON YPF C 20": "Probable YPF S.A. Clase XX (YMCL, no esta en BYMA); bloqueada porque el cruce automatico la une a YPF Luz C20 (YFCLD), que la CNV nombra 'ON YPF Luz C20'"
 }
