@@ -24,7 +24,7 @@ SINON = {"frances": "bbva", "bbva": "bbva", "tarj": "naranja", "tarjeta": "naran
          "pan": "pae", "amer": "pae", "american": "pae", "amercian": "pae", "pae": "pae",
          "gemsa": "roca", "ctr": "roca", "ct": "roca", "roca": "roca", "medit": "roca", "mediterranea": "roca",
          "oleoducto": "oldelval", "oleoductos": "oldelval", "oldelval": "oldelval", "valle": "oldelval",
-         "pcr": "pcr", "petroq": "pcr", "petroquimica": "pcr", "comodoro": "pcr", "rivadavia": "pcr"}
+         "cgc": "cgc", "comb": "cgc", "combust": "cgc", "combustibles": "cgc", "gral": "cgc", "vmos": "vmos", "vaca": "vmos", "muerta": "vmos", "tgs": "tgs", "sur": "tgs", "pcr": "pcr", "petroq": "pcr", "petroquimica": "pcr", "comodoro": "pcr", "rivadavia": "pcr"}
 MARC = {"c", "cl", "clase", "serie", "ser"}
 
 
@@ -113,8 +113,14 @@ def main():
                 cuentas[n] += 1
     ap = os.path.join(HERE, "alias_on.json")
     alias = json.load(open(ap, encoding="utf-8")) if os.path.exists(ap) else {}
+    bloq = set(json.load(open(os.path.join(HERE, "alias_bloqueados.json"), encoding="utf-8"))["bloqueados"])
+    for k in bloq:
+        alias.pop(k, None)
     nuevos, pend = {}, {}
     for n, k in cuentas.most_common():
+        if n in bloq:
+            pend[n] = {"fondos": k, "motivo": "bloqueado (cruce automatico dudoso)"}
+            continue
         if n in alias or re.search(r"\b[A-Z0-9]{4}[ODC]\b", n):
             continue
         e, c, s = parse(n)
@@ -124,10 +130,17 @@ def main():
             if len({u[3] for u in cd}) == 1:
                 nuevos[n] = cd[0][3]
                 continue
+        ym = re.search(r"(?<!\d)(20[2-5]\d)(?!\d)", n)
+        if ym and not c and e:   # "Aeropuertos 2000 Regs 2031": emisor + año de vencimiento
+            cy = [u for u in U if u[5] and u[5][:4] == ym.group(1) and {x for x in e if len(x) >= 3} & u[0]]
+            if len({u[3] for u in cy}) == 1:
+                nuevos[n] = cy[0][3]
+                continue
         if not c or not e:
             pend[n] = {"fondos": k, "motivo": "sin clase o emisor"}
             continue
-        cand = [u for u in U if u[1] == c and ({x for x in e if len(x) >= 3} & u[0]) and (s is None or u[2] is None or s == u[2])]
+        cl = {x for x in (c, s) if x}
+        cand = [u for u in U if (cl & {x for x in (u[1], u[2]) if x}) and ({x for x in e if len(x) >= 3} & u[0]) and (s is None or u[2] is None or s == u[2] or c == u[1])]
         if s is not None:
             exact = [u for u in cand if u[2] == s]
             cand = exact or cand

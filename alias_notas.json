@@ -3,5 +3,10 @@
  "ON Pan American C40": "PN40O: dato aportado por Fabricio (vence ~10-11/10/2026); NO esta en BYMA ni MAE hoy",
  "ON YPF Clase XXIV": "Corregido: es YPF S.A. Clase XXIV (25/04/2023-25/04/2027) = YMCP; antes estaba mal cruzada con YPF Luz C24 (YFCP). Validado con inversores.ypf.com",
  "ON YPF 2047": "YPF Clase LIV (15/12/2047), ticker YCAN (MAE: YCANO)",
- "ON YPF Clase 28": "YPF Clase XXVIII es internacional (A3 y Luxemburgo, vto 17/01/2031): sin ticker local en BYMA"
+ "ON YPF Clase 28": "YPF Clase XXVIII es internacional (A3 y Luxemburgo, vto 17/01/2031): sin ticker local en BYMA",
+ "ON Telecom 9.5% 2031": "Es la Clase 21 de Telecom (9,5% 2031, 144A/Reg S, listada local como TLCMO); confirmado por web (SEC 6-K, Marval)",
+ "ON Pluspetrol 8.5% 2032 (REGS)": "Es la Clase 4 de Pluspetrol (8,5% 30/05/2032, USD 650 M con la reapertura); ticker PLC4D",
+ "ON Generacion Litoral C1": "Clase I, vto 28/03/2028 (web) = GOC1D en BYMA",
+ "ON Energias Renovables Las Lomas Clase 1": "Hoy MSU Green Energy; Clase 1 USD 22,6 M, 1%, vto 12/10/2026 (ya vencida); ticker no confirmado",
+ "ON Banco Nacion Argentina Clase 3": "Clase 3 UVA +5,25%, 24 meses (La Nacion/Bloomberg Linea); MAE NZC3O; no esta en BYMA"
 }

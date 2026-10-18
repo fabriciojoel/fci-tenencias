@@ -1,0 +1,16 @@
+{
+ "_nota": "Nombres que el cruce automatico une mal. Se sacan siempre del alias y quedan pendientes.",
+ "bloqueados": [
+  "ON Gemsa CTR Regs 2027",
+  "ON Lab. Richmond S7 Clase A",
+  "ON Lab. Richmond S8 Clase A",
+  "ON Lab. Richmond S8 Clase B",
+  "ON Lab. Richmond S8 Clase C",
+  "ON Tarj Naranja C66 S1",
+  "ON Tarj Naranja C67 S1",
+  "ON Oiltanking S2",
+  "ON PyME Sion Serie 12 UVA",
+  "ON Edenor C10 144A",
+  "ON CGC C 38 Prov"
+ ]
+}

@@ -32,6 +32,24 @@ def moneda_mae(d):
     return "/".join(out) or "sin aclarar"
 
 
+def byma_simbolos():
+    """{simbolo base sin sufijo: (vencimiento, moneda)} de la pizarra de BYMA (ON corporativas)."""
+    req = urllib.request.Request("https://open.bymadata.com.ar/vanoms-be-core/rest/api/bymadata/free/negociable-obligations",
+                                 data=json.dumps({"excludeZeroPxAndQty": False, "T2": True, "T1": True, "T0": True}).encode(),
+                                 headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"})
+    try:
+        d = json.load(urllib.request.urlopen(req, timeout=60))
+    except Exception:
+        return {}
+    rows = d if isinstance(d, list) else d.get("data", [])
+    out = {}
+    for x in rows:
+        s = x["symbol"].split(".")[0]
+        if s.endswith("D"):
+            out[s[:-1]] = (x.get("maturityDate"), x.get("denominationCcy"))
+    return out
+
+
 def main():
     req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0"})
     mae = [x for x in json.load(urllib.request.urlopen(req, timeout=60)) if x["tipoEspecie"] in ("ON", "TPP", "TPN")]
@@ -40,6 +58,15 @@ def main():
         e, c, s = b.parse(x["descripcion"])
         M.append((e, c, s, x["codTitulo"], x["descripcion"], moneda_mae(x["descripcion"]), b.fecha_en(x["descripcion"])))
     p = json.load(open(os.path.join(HERE, "alias_pendientes.json"), encoding="utf-8"))
+    BY = byma_simbolos()
+    sheet = {t for _n, t, _v in json.load(open(os.path.join(HERE, "universo_sitio.json"), encoding="utf-8"))}
+    ap = os.path.join(HERE, "alias_on.json")
+    alias = json.load(open(ap, encoding="utf-8"))
+    hall = json.load(open(os.path.join(HERE, "hallazgos_web.json"), encoding="utf-8"))
+    bloq = set(json.load(open(os.path.join(HERE, "alias_bloqueados.json"), encoding="utf-8"))["bloqueados"])
+    for k in bloq:
+        alias.pop(k, None)
+    nuevos = 0
     raw = json.load(open(os.path.join(HERE, "data", "carteras", sorted(os.listdir(os.path.join(HERE, "data", "carteras")))[-1]),
                          encoding="utf-8"))["fondos"]
     cnt = collections.defaultdict(lambda: [0, 0])
@@ -75,18 +102,33 @@ def main():
             nota = "Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE"
         elif not cand:
             nota = "No está en el catálogo vigente de MAE (puede estar vencida o no listar)"
+        bases = {m[3][:-1] for m in cand}
+        if len(bases) == 1:
+            tk = list(bases)[0] + "D"
+            if tk in sheet and n not in alias and n not in bloq:   # el ticker de MAE existe en el sheet: es esa ON
+                alias[n] = tk
+                nuevos += 1
+        en_by = " | ".join("%s: %s %s" % (b_ + "D", BY[b_][0], BY[b_][1]) for b_ in sorted(bases) if b_ in BY) or ("no figura" if cand else "")
         filas.append([n, v["fondos"], rubro(n), " | ".join(m[3] for m in cand[:4]), " | ".join(m[4] for m in cand[:4]),
-                      " | ".join(m[5] for m in cand[:4]), nota, ", ".join(v.get("candidatos", [])), ""])
-    with open(os.path.join(HERE, "alias_pendientes.csv"), "w", newline="", encoding="utf-8-sig") as f:
+                      " | ".join(m[5] for m in cand[:4]), en_by, nota, hall.get(n, ""), ", ".join(v.get("candidatos", [])), ""])
+    json.dump(dict(sorted(alias.items())), open(ap, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("alias nuevos por MAE->sheet:", nuevos)
+    destino = os.path.join(HERE, "alias_pendientes.csv")
+    try:
+        open(destino, "a").close()
+    except PermissionError:   # abierto en Excel
+        destino = os.path.join(HERE, "alias_pendientes_nuevo.csv")
+        print("alias_pendientes.csv esta abierto: escribo", destino)
+    with open(destino, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f, delimiter=";")
         w.writerow(["Nombre en la CNV", "Fondos que la tienen", "Moneda según rubro CNV", "Ticker MAE (candidato)",
-                    "Descripción en MAE", "Moneda según descripción MAE", "Nota", "Candidatos del sheet",
+                    "Descripción en MAE", "Moneda según descripción MAE", "En BYMA hoy (vencimiento, moneda)", "Nota", "Hallazgo web", "Candidatos del sheet",
                     "Ticker final (completar a mano)"])
         w.writerows(filas)
     con = [r for r in filas if r[3]]
     print("pendientes:", len(filas), "| con candidato MAE:", len(con), "(%d tenencias)" % sum(r[1] for r in con),
-          "| internacionales:", sum(1 for r in filas if r[6].startswith("Bono internacional")),
-          "| sin MAE:", sum(1 for r in filas if r[6].startswith("No está")))
+          "| internacionales:", sum(1 for r in filas if r[7].startswith("Bono internacional")),
+          "| sin MAE:", sum(1 for r in filas if r[7].startswith("No está")))
     return filas
 
 
