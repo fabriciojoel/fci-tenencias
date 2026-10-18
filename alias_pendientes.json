@@ -1341,10 +1341,6 @@
    "CP41D CIA. GRAL. COMBUSTIBLES C41"
   ]
  },
- "ON Lab. Richmond S8 Clase B": {
-  "fondos": 3,
-  "motivo": "bloqueado (cruce automatico dudoso)"
- },
  "ON Pampa Energia 2026 9.5%": {
   "fondos": 2,
   "motivo": "sin clase o emisor"
@@ -1428,10 +1424,6 @@
   "motivo": "fuera del universo / sin match"
  },
  "ON Rizobacter S 8 B": {
-  "fondos": 2,
-  "motivo": "sin clase o emisor"
- },
- "ON Raghsa 2032": {
   "fondos": 2,
   "motivo": "sin clase o emisor"
  },

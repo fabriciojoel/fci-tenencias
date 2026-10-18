@@ -208,7 +208,7 @@ ON PyME Sion Serie 2;8;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de 
 ON Pyme Franklin Boglich S1;8;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON Pyme RDA Renting S1;8;Pesos/UVA/CER/DL;RD31L;ON BI RDA RENTING S3 CL 1 $ CO;sin aclarar;no figura;;;;
 ON Red Surcos S14 Clase A;8;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
-ON Lab. Richmond S8 Clase A;8;Pesos/UVA/CER/DL;LR8AO;ON RICHMOND S8 CL A $ CO;sin aclarar;LR8AD: 2028-07-31 USD;;;;
+ON Lab. Richmond S8 Clase A;8;Pesos/UVA/CER/DL;LR8AO;ON RICHMOND S8 CL A $ CO;sin aclarar;LR8AD: 2028-07-31 USD;;"Clase A en pesos; no está en el sheet. MAE: LR8AO.";;
 ON FCA Comp. Finac CL 20 S1;7;Pesos/UVA/CER/DL;FTL1O;ON FCA CLASE 20 S1 UVA T.UNICO;UVA;FTL1D: 2027-05-29 USD;;;;
 ON Mirgor Clase 7;7;Pesos/UVA/CER/DL;MIC7O;ON MIRGOR CLASE 7 $ CO;sin aclarar;MIC7D: 2027-09-11 USD;;;;
 ON Grupo ST C15;7;Pesos/UVA/CER/DL;STCGO;ON GRUPO ST CLASE 15 $ CO;sin aclarar;STCGD: 2027-02-18 USD;;;;
@@ -282,7 +282,7 @@ ON AES Argentina Gen 150329;4;USD;;;;;No está en el catálogo vigente de MAE (p
 ON Pyme Gar Latitud 45 S2 C3;4;Pesos/UVA/CER/DL;SB12L;ON PYM GAR BI SB DEL SUR C2 DL;Dólar Linked;no figura;;;;
 ON PyMe Zuamar S2;4;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON 3D Latinoamerica 130827;4;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
-ON Lab. Richmond S7 Clase A;4;Pesos/UVA/CER/DL;LR7AO;ON LAB RICHMOND S7 CL A $;sin aclarar;LR7AD: 2026-12-10 USD;;;;
+ON Lab. Richmond S7 Clase A;4;Pesos/UVA/CER/DL;LR7AO;ON LAB RICHMOND S7 CL A $;sin aclarar;LR7AD: 2026-12-10 USD;;"Clase A en pesos; el sheet solo tiene la Clase B (USD). MAE: LR7AO.";;
 ON Deposito Fiscal Cordoba S1;4;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON Pyme Zafra S3 CB;4;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON Volkswagen Financial Services C14;4;Pesos/UVA/CER/DL;VWCFO;ON VOLKSWAGEN CL 14 UVA CO;UVA;VWCFD: 2027-12-11 USD;;;;
@@ -319,7 +319,6 @@ ON SAT Financial Planning S1 C1;3;Pesos/UVA/CER/DL;;;;;No está en el catálogo 
 ON Plaza Logistica C13;3;Pesos/UVA/CER/DL;PZCEO;ON.PLAZA LOGISTICA CLASE 13;sin aclarar;PZCED: 2027-06-07 USD;;;;
 ON Pyme Edisur S1;3;Dudosa;EDS1P;ON EDISUR SA SERIE 1 PYMEGARA;sin aclarar;no figura;;;;
 ON Centro Interacción Multimedia 070929;3;USD;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
-ON Lab. Richmond S8 Clase B;3;Dudosa;LR8BO;ON RICHMOND S8 CL B USD CO;USD;LR8BD: 2028-07-31 USD;;;;
 ON Pampa Energia 2026 9.5%;2;Pesos/UVA/CER/DL;;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;;
 ON CFN Serie 10;2;Pesos/UVA/CER/DL;CFSAO;ON CFN SERIE 10 $ T.UNICO;sin aclarar;CFSAD: 2027-05-18 USD;;;;
 ON Generacion Litoral C3;2;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
@@ -341,7 +340,6 @@ ON MSU S12;2;Pesos/UVA/CER/DL;MSSDO | RUCDO;OB.NEG. MSU SERIE 12 | ON.MSU ENERGY
 ON Municipalidad de Cordoba C2;2;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON Tecnovax S1 C2;2;USD;VX11M | VX12M;ON MI TECNOVAX S1 CL 1 $ UNI | ON MI TECNOVAX S1 CL 2 USD UNI;sin aclarar | USD;no figura;;;;
 ON Rizobacter S 8 B;2;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
-ON Raghsa 2032;2;USD;;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;;
 ON PyME Hattrick Energy S2;2;USD;HTS2M;ON MI HATTRICK SERIE 2 USD UNI;USD;no figura;;;;
 ON Aeropuertos 2000 2028;2;Dudosa;;;;;Bono internacional (tasa/año/Reg S/144A en el nombre): no cotiza con ticker local en MAE;;;
 ON Celulosa Argentina;2;Pesos/UVA/CER/DL;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
@@ -356,7 +354,7 @@ ON Crown Point Energy C9;2;Pesos/UVA/CER/DL;CWC9O;ON CROWN POINT CL9 DLK UNICO;D
 ON Promedon S2;2;USD;PBS2M;ON MI PROMEDON SERIE 2 USD UNI;USD;no figura;;;;
 ON Promedon S1;2;USD;PBS1M;ON MI PROMEDON SERIE 1 USD UNI;USD;no figura;;;;
 ON Bco Serv Transac C24;2;USD;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
-ON Lab. Richmond S8 Clase C;2;Pesos/UVA/CER/DL;LR8CO;ON RICHMOND S8 CL C DLK CO;Dólar Linked;LR8CD: 2028-07-31 USD;;;;
+ON Lab. Richmond S8 Clase C;2;Pesos/UVA/CER/DL;LR8CO;ON RICHMOND S8 CL C DLK CO;Dólar Linked;LR8CD: 2028-07-31 USD;;"Clase C dólar linked; no está en el sheet. MAE: LR8CO.";;
 ON Finanlease S1;2;USD;FAS1M;ON MI FINANLEASE SERIE I USD;USD;no figura;;;;
 ON Pyme Giorgi S1;2;USD;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
 ON Gpo Televisa 310146;1;USD;;;;;No está en el catálogo vigente de MAE (puede estar vencida o no listar);;;
