@@ -26,7 +26,7 @@ def main():
         pu = round(f["pn"] / tc) if (f["pn"] and tc) else None
         acts, on_pct, n_on = [], 0.0, 0
         for n, rubro, pct in f["activos"]:
-            tk = scrape.ticker_de(n, alias) if scrape.es_on(n) else None
+            tk = scrape.ticker_de(n, alias) if (scrape.es_on(n) or n in alias) else None  # los soberanos/BOPREAL solo si están en alias
             acts.append([n, rubro, pct, tk or ""])
             if scrape.es_on(n):
                 on_pct += pct
